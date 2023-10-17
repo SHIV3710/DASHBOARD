@@ -19,5 +19,4 @@ const App = createBrowserRouter([
     element: <DashBoard/>,
   },
 ]);
-
 export default App;
