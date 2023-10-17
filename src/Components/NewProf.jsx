@@ -65,18 +65,18 @@ const Prof = styled.div`
       justify-content: space-evenly;
     }
     .icon{
-      width:100px;
+
       display: flex;
       justify-content: space-between;
     }
     .one{
-      max-width: 400px;
+      width:35vw;
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
     .two{
-      max-width: 400px;
+      width: 35vw;
       display: flex;
       justify-content: space-around;
     }
@@ -87,7 +87,7 @@ const Prof = styled.div`
     }
     .item{
       width:150px;
-      height:20px;
+      height:50px;
       font-size:1rem;
       text-decoration: underline  ;
       /* min-width:40%; */
