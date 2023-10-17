@@ -16,24 +16,24 @@ export default function NewProfile({object}) {
       </div>
        <div className="last">
        <div className="one">
-        <span className='icon'>
+        <div className='icon'>
         <AiOutlineWhatsApp style={{color:"green"}}/>
         <div className="item">+91 {object.phone}</div>
-        </span>
-        <span className='icon'>
+        </div>
+        <div className='icon'>
         <FiInstagram style={{color:"red"}}/>
         <div className="item">{object.insta}</div>
-        </span>
+        </div>
        </div>
        <div className="two">
-          <span className='icon'>
+          <div className='icon'>
           <AiOutlineYoutube style={{color:"red"}}/>
           <div className="item">{object.email}</div>
-          </span>
-          <span className='icon'>
+          </div>
+          <div className='icon'>
           <AiOutlineMail style={{color:"purple"}}/>
           <div className="item">{object.youtube}</div>
-          </span>
+          </div>
        </div>
        </div>
     </Prof>
@@ -65,17 +65,18 @@ const Prof = styled.div`
       justify-content: space-evenly;
     }
     .icon{
-      min-width:50%;
+      width:100px;
       display: flex;
-      justify-content: space-evenly;
-      text-align:left;
+      justify-content: space-between;
     }
     .one{
-      
+      max-width: 400px;
       display: flex;
+      justify-content: space-around;
       align-items: center;
     }
     .two{
+      max-width: 400px;
       display: flex;
       justify-content: space-around;
     }
@@ -85,6 +86,7 @@ const Prof = styled.div`
         font-size:1.5rem;
     }
     .item{
+      width:80px;
       font-size:1rem;
       text-decoration: underline  ;
       /* min-width:40%; */
