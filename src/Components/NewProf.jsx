@@ -86,7 +86,7 @@ const Prof = styled.div`
         font-size:1.5rem;
     }
     .item{
-      width:60px;
+      width:150px;
       height:20px;
       font-size:1rem;
       text-decoration: underline  ;
